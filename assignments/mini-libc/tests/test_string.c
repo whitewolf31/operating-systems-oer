@@ -7,7 +7,7 @@
 static int test_strcpy(void)
 {
 	char src[] = "sticksandstones";
-	char dst[128];
+	char dst[128] = "maybreakyyourbones";
 	size_t len;
 
 	strcpy(dst, src);
